@@ -1,0 +1,49 @@
+/* reset des paramètres d'affichage de l'explorateur : */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color:#000;
+    font-size: 50px;
+    font-family: 'Abril Fatface', cursive;
+    position: absolute;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Abril Fatface', cursive;
+    color: black;
+    font-size: 30px;
+}
+
+#titre {
+    background-image: url('../img/fond_accueil.jpg');
+    display: flex;
+    height: 900px; 
+    background-size: cover;
+    justify-content: start;
+ 
+}
+
+.container {
+    height: 60px;
+    display: flex;
+    align-items: flex-start;
+     
+}
+
+.item {
+    width: 60em;
+    font-size: 47px;
+    color:#000;
+    font-family: 'Abril Fatface', cursive;
+    padding: 70px;
+    justify-items: auto;
+}
+
+
+
+
