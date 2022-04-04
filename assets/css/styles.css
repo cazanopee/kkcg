@@ -1,5 +1,5 @@
 /* reset des paramètres d'affichage de l'explorateur : */
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -22,10 +22,35 @@ a {
 #titre {
     background-image: url('../img/fond_accueil.jpg');
     display: flex;
+    opacity: 80%;
     height: 900px; 
     background-size: cover;
     justify-content: start;
  
+}
+
+.titre1 {
+    position: absolute;
+    color: black;
+    top: 300px;
+    left: 250px;
+    font-size: 50px;
+    font-family: 'Abril Fatface', cursive;
+    box-shadow: 5px 5px 5px 5px #888;
+    margin-top: 30px;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.titre2 {
+    position: absolute;
+    color: black;
+    top: 450px;
+    left: 800px;
+    font-size: 50px;
+    font-family: 'Abril Fatface', cursive;
+    box-shadow: 5px 5px 5px 5px #888;
+    margin-top: 30px;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
 }
 
 .container {
@@ -44,6 +69,9 @@ a {
     justify-items: auto;
 }
 
+#titre3 {
+    font-size: 80px;
+    font-family: 'Abril Fatface', cursive;
 
-
+}
 
