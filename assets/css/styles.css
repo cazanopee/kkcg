@@ -22,7 +22,7 @@ a {
 #titre {
     background-image: url('../img/fond_accueil.jpg');
     display: flex;
-    opacity: 80%;
+    opacity: 90%;
     height: 900px; 
     background-size: cover;
     justify-content: start;
@@ -56,8 +56,8 @@ a {
 .container {
     height: 60px;
     display: flex;
-    align-items: flex-start;
-     
+    align-items: flex-start; 
+
 }
 
 .item {
@@ -75,3 +75,16 @@ a {
 
 }
 
+.card-body {
+    height: 100;
+    border: 10px  #000;
+
+}
+
+p {
+    text-align: justify;
+    width: 1000px;
+    font-family: 'Abril Fatface', cursive;
+    font-style: normal;
+    
+}
