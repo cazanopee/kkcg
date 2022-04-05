@@ -12,6 +12,7 @@ h1 {
 
 }
 
+
 a {
     text-decoration: none;
     font-family: 'Abril Fatface', cursive;
@@ -53,12 +54,6 @@ a {
     border-radius: 0.5em 0.5em 0.5em 0.5em;
 }
 
-.container {
-    height: 60px;
-    display: flex;
-    align-items: flex-start; 
-
-}
 
 .item {
     width: 60em;
@@ -72,19 +67,17 @@ a {
 #titre3 {
     font-size: 80px;
     font-family: 'Abril Fatface', cursive;
+    color: #c82619;
 
 }
 
-.card-body {
-    height: 100;
-    border: 10px  #000;
-
+#titre4 {
+   text-align: center;
+   font-family: 'Abril Fatface', cursive;
 }
 
-p {
-    text-align: justify;
-    width: 1000px;
-    font-family: 'Abril Fatface', cursive;
-    font-style: normal;
+  
     
-}
+
+
+
