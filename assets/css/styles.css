@@ -9,7 +9,6 @@ h1 {
     font-size: 50px;
     font-family: 'Abril Fatface', cursive;
     position: absolute;
-
 }
 
 
@@ -27,7 +26,6 @@ a {
     height: 900px; 
     background-size: cover;
     justify-content: start;
- 
 }
 
 .titre1 {
@@ -68,16 +66,45 @@ a {
     font-size: 80px;
     font-family: 'Abril Fatface', cursive;
     color: #c82619;
-
 }
 
 #titre4 {
    text-align: center;
-   font-family: 'Abril Fatface', cursive;
 }
 
+#enfants {
+    background-image: url('../img/cours_enfants.png');
+} 
+   
   
+
+#adultes {
+    background-image: url('../img/cours_adultes.png');
+}
+ 
+#sante {
+    background-image: url('../img/cours_sante.png');
+}
+
+#contact {
+    background-image: url('../img/fond_contact.jpg');
+    display: flex;
+    opacity: 90%;
+    height: 900px; 
+    background-size: cover;
+    justify-content: start;
+}
+
+.titre8 {
+    margin: 100px;
+    padding-left: 100px;
+    position: absolute;
+    color: black;
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;   
     
+}
 
-
-
+.card {
+    position: absolute;
+}
